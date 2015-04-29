@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tree_options_root"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+    
+    <LinearLayout 
+        android:id="@+id/max_arc_length_linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal" 
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp" >
+    
+	    <TextView 
+	        android:id="@+id/max_arc_length_text"
+	        android:text="@string/tree_option_arc_maxLength"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginRight="2dp" />
+	    <TextView 
+	        android:id="@+id/max_arc_length_value"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" />
+	
+	</LinearLayout>	
+	
+    <SeekBar 
+        android:id="@+id/max_arc_length_seekbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:max="49" 
+        android:layout_below="@id/max_arc_length_linearLayout"/>
+   
+	<LinearLayout 
+        android:id="@+id/arc_angle_linearLayout"
+        android:layout_below="@id/max_arc_length_seekbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal" 
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp" >
+	   
+	    <TextView 
+	        android:id="@+id/arc_angle_text"
+	        android:text="@string/tree_option_arc_angle"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginRight="2dp"/>
+   
+  	    <TextView 
+	       android:id="@+id/arc_angle_value"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"/>
+  	    
+	</LinearLayout>
+	
+    <SeekBar 
+        android:id="@+id/arc_angle_seekbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:max="44" 
+        android:layout_below="@id/arc_angle_linearLayout"/>
+    
+   	<LinearLayout 
+        android:id="@+id/shrink_rate_linearLayout"
+        android:layout_below="@id/arc_angle_seekbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal" 
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp" >
+	   
+	    <TextView 
+	        android:id="@+id/shrink_rate_text"
+	        android:text="@string/tree_option_shrink_rate"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginRight="2dp"/>
+   
+  	    <TextView 
+	       android:id="@+id/shrink_rate_value"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"/>
+  	    
+	</LinearLayout>
+	
+    <SeekBar 
+        android:id="@+id/shrink_rate_seekbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:max="9" 
+        android:layout_below="@id/shrink_rate_linearLayout"/>
+    
+   	<LinearLayout 
+        android:id="@+id/start_size_linearLayout"
+        android:layout_below="@id/shrink_rate_seekbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal" 
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp" >
+	   
+	    <TextView 
+	        android:id="@+id/start_size_text"
+	        android:text="@string/tree_option_start_size"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginRight="2dp"/>
+   
+  	    <TextView 
+	       android:id="@+id/start_size_value"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"/>
+  	    
+	</LinearLayout>
+	
+    <SeekBar 
+        android:id="@+id/start_size_seekbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:max="50" 
+        android:layout_below="@id/start_size_linearLayout"/>
+   
+   	<LinearLayout 
+        android:id="@+id/end_size_linearLayout"
+        android:layout_below="@id/start_size_seekbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal" 
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp" >
+	   
+	    <TextView 
+	        android:id="@+id/end_size_text"
+	        android:text="@string/tree_option_end_size"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginRight="2dp"/>
+   
+  	    <TextView 
+	       android:id="@+id/end_size_value"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"/>
+  	    
+	</LinearLayout>
+	
+    <SeekBar 
+        android:id="@+id/end_size_seekbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:max="30" 
+        android:layout_below="@id/end_size_linearLayout"/>
+    
+</RelativeLayout>

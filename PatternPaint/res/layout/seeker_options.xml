@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/seek_options_root"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/force_title"
+        android:text="@string/seeker_force"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+    </TextView>
+
+    <SeekBar 
+        android:id="@+id/force_slider"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:max="100" 
+        android:layout_below="@id/force_title">
+    </SeekBar>
+ 
+    <TextView
+        android:id="@+id/maxSpeed_title"
+        android:text="@string/seeker_maxSpeed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/force_slider"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+    </TextView>
+             
+    <SeekBar 
+        android:id="@+id/maxSpeed_slider"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:paddingBottom="10dp"
+        android:layout_below="@id/maxSpeed_title" >
+    </SeekBar>
+  
+</RelativeLayout>

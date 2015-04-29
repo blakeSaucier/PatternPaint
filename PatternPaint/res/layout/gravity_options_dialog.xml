@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:id="@+id/gravity_options_radio"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical" >
+
+	<RadioButton 
+    	android:id="@+id/gravity_radio_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="@string/gravity_option_up"/>
+	<RadioButton 
+    	android:id="@+id/gravity_radio_down"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="@string/gravity_option_down"/>
+	<RadioButton 
+    	android:id="@+id/gravity_radio_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="@string/gravity_option_left"/>
+	<RadioButton 
+    	android:id="@+id/gravity_radio_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="@string/gravity_option_right"/>
+  </RadioGroup>
+

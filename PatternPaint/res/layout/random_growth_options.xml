@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/random_growth_options_root"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+	
+    <LinearLayout 
+        android:id="@+id/max_growth_number_linear_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal" 
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp" >
+    
+	    <TextView
+	        android:id="@+id/max_growth_number_text"
+	        android:text="@string/random_growth_option_max_growths"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginRight="2dp" />
+	    <TextView
+	        android:id="@+id/max_growth_number_value"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" />
+	
+	</LinearLayout>	
+	
+    <SeekBar 
+        android:id="@+id/max_growth_number_seekbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:max="200" 
+        android:layout_below="@id/max_growth_number_linear_layout"/>
+    
+</RelativeLayout>

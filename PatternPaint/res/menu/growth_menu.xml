@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+      <item
+   	    android:id="@+id/undo_option"
+   	    android:title="@string/undo_pattern_option"
+   	    android:showAsAction="always"
+   	    android:icon="@android:drawable/ic_menu_revert"/>
+    <item
+   	    android:id="@+id/clear_screen"
+   	    android:title="@string/clear_screen_option"
+   	    android:showAsAction="always"
+   	    android:icon="@android:drawable/ic_menu_delete"/>
+    <item 
+        android:id="@+id/pause"
+        android:title="@string/pause_option"
+        android:showAsAction="always"
+        android:icon="@android:drawable/ic_media_pause"/>
+    <item 
+   	    android:id="@+id/pixel"
+   	    android:title="@string/pixel_option"/>
+    <item 
+   	    android:id="@+id/splatter_size"
+   	    android:title="@string/splatter_size_option"/>
+    <item 
+   	    android:id="@+id/random_growth"
+   	    android:title="@string/random_growth_option"/>
+    <item 
+   	    android:id="@+id/color"
+   	    android:title="@string/color_option"/>
+    <item 
+   	    android:id="@+id/background_color"
+   	    android:title="@string/background_color_option"/>
+   	<item
+   	    android:id="@+id/flatten_canvas"
+   	    android:title="@string/flatten_screen_option"/>  
+   	<item
+   	    android:id="@+id/save_screen"
+   	    android:title="@string/save_screen_option"/>   	
+
+</menu>
