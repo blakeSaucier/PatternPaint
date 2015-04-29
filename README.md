@@ -1,7 +1,14 @@
 # PatternPaint
 Draw using generative patterns - Android
 
-Project from last summer. Looking to migrate away from using the surface view and drawing thread and implementing the same features with libgdx.
+Project from last summer. 
+
+-Draw using a Tree Pattern, 'Seeker', Particle, and Diffusion-Limited-Aggregation
+-Lots of options for each pattern
+-Save the drawing as a PNG or JPEG
+-Option to flatten the drawing canvas down for performance
+
+Looking to migrate away from using the surface view and drawing thread and implementing the same features with libgdx.
 
 ##Screenshots
 ![Image](http://i.imgur.com/SfT2lqK.png)
